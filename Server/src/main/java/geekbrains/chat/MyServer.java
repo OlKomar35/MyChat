@@ -19,7 +19,9 @@ public class MyServer {
             DataOutputStream outputStream = new DataOutputStream(socket.getOutputStream());
             String str, massage;
 
-            
+            new Thread(()->{
+
+            }).start();
 
             while (true) {
                 str = scanner.nextLine();
